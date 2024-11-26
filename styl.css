@@ -1,0 +1,91 @@
+body {
+    /* kolor tła strony */
+    background-color: rgb(103, 134, 189);
+    /* domyślny kolor tekstu na stronie */
+    color: rgb(25, 33, 63);
+    /* domyślny krój pisma */
+    font-family: Arial, Helvetica, sans-serif;
+    /* domyślny rozmiar czcionki */
+    font-size: 14px;
+}
+
+/* styl do użycia w celu zmiany koloru na zielony */
+.inny_kolor_tekstu {
+    color:#1c3158;
+}
+
+/* styl ustawiający treść strony na środku */
+.wysrodkowanie_calej_strony {
+    margin: auto;
+    /* szerokość głównej części strony */
+    width: 1024px;
+    /* ustawwienia ramki wokół głownej częśći  strony */
+    border: 0px solid #324e74;
+    /* margines zewnętrzny wokół głownej części strony */
+    padding: 10px;
+    margin-bottom: 350px;
+}
+
+.wyrownanie_w_lewo {
+    text-align: left;
+}
+
+.wyrownanie_do_srodka {
+    text-align: center;
+}
+
+.wyrownanie_w_prawo {
+    text-align: right;
+}
+
+/* ustawiamy kolor nagłowka h1 */
+h1 {
+    color:#122641;
+}
+
+/* ustawiamy kolor tła i marginesy wewnętrzne menu */
+.menu {
+    /* kolor tła menu */
+    background-color: rgb(21, 60, 82);
+    padding: 10px;
+}
+
+/* ustawienia nieodwiedzonego odnośnika */
+a:link {
+    /* wyłączamy domyślne podkreślenie linku */
+    text-decoration: none;
+    /* kolor odnośnika */
+    color:#6fa5d1;
+    /* rozmiar odnośnika */
+    font-size: 16px;
+}
+
+/* ustawienia odwiedzonego odnośnika */
+a:visited {
+    color:#051430;
+}
+
+/* ustawienia odnośnika wskazanego myszką */
+a:hover {
+    color: #324a61;
+}
+
+/* ustawiamy klikniętego odnośnika */
+a:active {
+    color:white;
+}
+
+/* ustawiamy obrys tabelki o grubości 1px */
+table, th, td {
+    border: 1px solid;
+}
+
+/* ustawiamy margines wewnętrzny nagłówka tabelki */
+th {
+    padding: 15px;
+}
+
+/* ustawiamy margines wewnętrzny komórki tabelki */
+td {
+    padding: 15px;
+}
